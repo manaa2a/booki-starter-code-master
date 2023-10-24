@@ -12,7 +12,11 @@
 .fa-solid {
     color: var(--main-color);
 }
-
+.icon-btn {
+    color: var(--main-color);
+    margin-right: 5px;
+    background-color: var(--main-bg-color);
+}
 body {
     display: flex;
     justify-content: center;
@@ -54,7 +58,6 @@ body {
     color: #0065FC;
     border-top: 3px #0065FC solid;
 }
-
 
 
 .txt1 {
@@ -121,7 +124,23 @@ input[type=submit] {
     position: absolute;
   
 }
-
+.btn-rech {
+    display: flex;
+    display: inline;
+    height: 49px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid var(--Blue, #0065FC);
+    background: var(--Blue, #0065FC);    
+    width:  132px;
+    cursor: pointer;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+}
 .filtre-container {
     display: flex;
     justify-content: space-around;
@@ -271,9 +290,8 @@ a {
     margin-inline: 5.4px;
     
 }
-.Activités-cards .card {
+.Activités-cards .Activité-card {
     display: flex;
-
     width: 23%;
     height: 430px;
     display: inline-block;
@@ -318,19 +336,17 @@ a {
     box-sizing: border-box;
     
 }
-.Acitivtés-cards .card-content {
-    display: flex;
-    flex-direction: column;
-   margin-left: 20px;
-    
-    
-    
-}
+
 .populaires-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
 }
 .hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.Activités-cards .card-title {
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 4px;
 }
