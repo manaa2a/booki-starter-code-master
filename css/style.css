@@ -219,6 +219,33 @@ input[type=submit] {
     font-weight: 700;
     line-height: normal;  
 }
+.my-filter {
+   
+    background-color: white;
+    color: black;
+    line-height: 100px;
+    text-align: center;
+    transition: all 1s; /* smooth transition between states */
+   }
+   
+   .my-filter:hover {
+    animation: growAndColor 1s;
+   }
+   
+   @keyframes growAndColor {
+     0% {
+       transform: scale(1);
+       background-color: white;
+    }
+     40% {
+       transform: scale(1.2);
+       background-color: #DEEBFF;
+    }
+     100% {
+       transform: scale(1.1);
+       background-color: #DEEBFF;
+    }
+   }
 .txt-button-filtre {
     color: var(--Black, #000);
     font-family: Raleway;
