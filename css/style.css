@@ -335,9 +335,7 @@ a {
     margin-inline: 5.4px;
     
 }
-.Activités {
-  
-}
+
 .Activités-cards .Activité-card {
     display: flex;
     flex-wrap: nowrap;
@@ -347,7 +345,6 @@ a {
     display: inline-block;
     margin-top: 33px;
     margin-right: 6.5px;
-    
     
 }
 
