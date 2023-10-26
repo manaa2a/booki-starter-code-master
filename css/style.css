@@ -338,13 +338,12 @@ a {
 
 .Activités-cards .Activité-card {
     display: flex;
-    flex-wrap: nowrap;
-    display: block;
-    width: 24%;
+    
+    width: 22%;
     height: 430px;
     display: inline-block;
     margin-top: 33px;
-    margin-right: 6.5px;
+    margin-inline: 17.05px;
     
 }
 
