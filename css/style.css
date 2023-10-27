@@ -483,13 +483,7 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .filtre-container {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        height: 50px;
-        margin-bottom: 37px;
-    }
+    
 }
 
 /* Small devices (phones, less than 768px) */
@@ -548,9 +542,11 @@ a {
       }
       .filtre-container {
         display: flex;
+        width: 300px;
         justify-content: space-around;
         flex-direction: column;
         height: 50px;
-        margin-bottom: 37px;
+        margin-bottom: 100px;
+        margin-top: 100px;
     }
 }
