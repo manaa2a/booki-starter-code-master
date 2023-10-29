@@ -131,7 +131,7 @@ input[type=submit] {
     background-color: var(--main-color);
     width: 132px;
     height: 49px;
-    color: #ffffff;
+    color: var(--White, #FFF);
     font-size: 18px;
     font-weight: 700;
     text-align: center;
@@ -229,7 +229,28 @@ input[type=submit] {
    }
    
    .my-filter:hover {
-    animation: growAndColor 1s;
+    animation: growAndColor 1s forwards;
+
+   }
+   
+   @keyframes growAndColor {
+     0% {
+       transform: scale(1);
+       background-color: white;
+    }
+     40% {
+       transform: scale(1.2);
+       background-color: #DEEBFF;
+    }
+     100% {
+       transform: scale(1.1);
+       background-color: #DEEBFF;
+    }
+   }
+
+   .my-filter:not(:hover) {
+    animation: ungrowAndColor 1s forwards;
+
    }
    
    @keyframes growAndColor {
@@ -280,7 +301,7 @@ a {
     font-size: 22px;
 }
 .title {
-    margin-top: 40;
+    margin-top: 40px;
     font-size: 18px;
 }
 .card {
@@ -529,7 +550,8 @@ a {
         background-color: var(--main-color);
         width: 49px;
         height: 49px;
-        color: var(--backcolor-cards);
+        color: var(--White, #FFF);
+        fill: var(--White, #FFF);
         font-size: 18px;
         font-weight: 700;
         text-align: center;
