@@ -522,8 +522,9 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
     .card {
-       
-        min-width: fit-content;  
+        width: 100%;
+        min-width: fit-content; 
+        flex-grow: 1; 
     }
     .hebergements-and-populaires {
         flex-direction: column;
@@ -535,10 +536,19 @@ a {
         order: 2;
         
     }
+    .hebergements-cards .card {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        display: inline-block;
+        box-sizing: content-box;
+        margin-top: 33px;
+        margin-inline: 5.4px;
+        
+    }
 
     .populaires {
         order: 1;
-        
         
     }
 
@@ -547,9 +557,12 @@ a {
         flex-direction: column;
         justify-content: space-between;
     }
-
+    .card img {
+        object-fit: cover; 
+    }
+   
     .populaires-cards a {
-        width: fit-content;
+        width: 100%;
     }
 
     .populaires-cards .card-title {
@@ -584,7 +597,6 @@ a {
       }
       .filtre-container {
         display: flex;
-        
         width: 250px;
         justify-content: space-around;
         flex-direction: column;
@@ -644,7 +656,8 @@ a {
             text-align: center;
             color: black;
             font-size: 16px;
-            border-bottom: 3px #b1bbcb solid; 
+            border-bottom: 3px #b1bbcb solid;
+            font-weight: 500; 
             
         }
         
@@ -663,14 +676,13 @@ a {
 
         .barre-form{
             display: flex;
-            flex-direction: row;
-            justify-content: center;
             height: 49px;
             margin-bottom: 32px;
-
         }
+
+
         input[type=text] {
-        display: inline-block;
+            display: inline-block;
             height: 49px;
             text-align: left;
             font-size: 18px;
@@ -680,4 +692,32 @@ a {
             appearance: auto;
             box-sizing: border-box;
            }
+
+           .Activités {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .Activités-cards {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            margin-bottom: 10%;
+        }
+        
+        
+       
+        .Activités-cards .Activité-card {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;    
+        }
+        .footer {
+            display: flex;
+            flex-direction: column;
+            padding-left: 10%;
+        }
         }
