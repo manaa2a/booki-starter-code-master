@@ -707,14 +707,7 @@ footer {
             font-weight: 500; 
             
         }
-        
-        nav ul {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            width: 100%;
-            padding-inline-start: 0;
-        }
+      
         nav a:hover {
             color: #0065FC;
             border-top: none;
