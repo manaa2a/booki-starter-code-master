@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/4323393e05.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -20,8 +21,8 @@
         <header>
                 <div class="div-head">
                     <div class="logo-container">
-                        <a href="#">
-                            <img src="images/logo/Booki.png" alt="Logo" class="logo" width="61.09px" height="19px">
+                        <a class="logo-link"  href="#">
+                            <img src="/Users/maa/Desktop/Projet 3 test/code/images/logo/Logo.png" alt="Logo">
                         </a>
                     </div>
 
@@ -35,7 +36,7 @@
                      </div>
                 </div>
         </header>
-            <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
+            <h2 class="sec-title1 section-title ">Trouvez votre hébergement pour des vacances de rêve</h2>
             <p class="txt1">En plein centre-ville ou en pleine nature</p>
             
         <main>
@@ -62,31 +63,31 @@
             <div class="filtre-container">
                 <!--Filter text-->
                 <div>
-                    <p class="txt-filtres">Filtres</p>
+                    <span class="txt-filtres">Filtres</span>
                 </div>
-
                 <!--filtre 1-->
                 <div class="filters">
+
                 <button class="my-filter my-filter:not(:hover) button button: hover">
                       <i class="fa-solid fa-money-bill-wave fa-xl"></i>
-                    <p class="txt-button-filtre">Économique</p>
+                    <span class="txt-button-filtre">Économique</span>
                 </button>
 
                 <!--filtre 2-->
                 <button class="my-filter button button:hover">
                       <i class="fa-solid fa-person fa-2xl"></i>
-                    <p class="txt-button-filtre">Familial</p>
+                    <span class="txt-button-filtre">Familial</span>
                 </button>
 
                 <!--filtre 3-->
                 <button class="my-filter button button:hover">
                       <i class="fa-solid fa-heart fa-2xl"></i>
-                    <p class="txt-button-filtre">Romantique</p>
+                    <span class="txt-button-filtre">Romantique</span>
                 </button>
                 <!--filtre 4-->
                 <button class="my-filter button button:hover">
                       <i class="fa-solid fa-dog fa-2xl"></i>
-                    <p class="txt-button-filtre">Animaux autorisés</p>
+                    <span class="txt-button-filtre">Animaux autorisés</span>
                 </button>
             </div>
             </div> 
@@ -298,9 +299,11 @@
             </div>
 
             <!--Activités section-->
-            <section class="Activités">
-
-                <h2 class="section-title">Activités à Marseille</h2>
+           <!-- <section class="Activités">
+                <div>
+                    <h2 class="section-title">Activités à Marseille</h2>
+                </div>
+                
 
                 <div class="Activités-cards" id="activités">
                     <a href="#">
@@ -309,7 +312,6 @@
                             <div class="card-content">
                                 <div class="card-txt">
                                     <h3 class="card-title">Vieux-Port</h3>
-                                    
                                 </div>
                               
                             </div>
@@ -354,8 +356,127 @@
                             </div>
                         </article>
                     </a>
+                </div>
             </section>
+        
+            Container for all activity cards 
+<div class="Activités">
+
+    <h2 class="section-title">Activités à Marseille</h2>
+    
+    <div class="Activités-cards">    
+      
+      <div class="Activité-card">
+        <img src="images/activites/reno-laithienne.jpg" alt="Vieux-Port">
+        <p>Vieux-Port</p>
+        
+      </div>
+      
+      
+      <div class="Activité-card">
+        <img src="images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
+        <p>Fort de Pomègues</p>
+      </div>
+      
+      <div class="Activité-card">
+        <img src="images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
+        <p>Parc national des Calanques</p>
+      </div>
+      
+      <div class="Activité-card">
+        <img src="images/activites/kilyan-sockalingum.jpg" alt="Notre-Dame-de-la-Garde">
+        <p>Notre-Dame-de-la-Garde</p>
+      </div>
+      
+    </div>
+  </div>
+  
         </main>
+   
+    <!--
+    <section class="Activités">
+
+        <h2 class="section-title">Activités à Marseille</h2>
+  
+        <div class="Activités-cards" id="activités">
+            <a href="#">
+                <article class="Activité-card">
+                    <img src="images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                    <div class="card-content">
+                        <div class="card-txt">
+                            <h3 class="card-title">Vieux-Port</h3>
+                            
+                        </div>
+                      
+                    </div>
+                </article>
+            </a>
+  
+            <a href="#">
+                <article class="Activité-card">
+                    <img src="images/activites/paul-hermann.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                    <div class="card-content">
+                        <div class="card-txt">
+                            <h3 class="card-title">Fort de Pomègues</h3>
+                            
+                        </div>
+                      
+                    </div>
+                </article>
+            </a>
+  
+            <a href="#">
+                <article class="Activité-card">
+                    <img src="images/activites/kilyan-sockalingum.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                    <div class="card-content">
+                        <div class="card-txt">
+                            <h3 class="card-title">Parc national des Calanques</h3>
+                            
+                        </div>
+                      
+                    </div>
+                </article>
+            </a>
+  
+            <a href="#">
+                <article class="Activité-card">
+                    <img src="images/activites/florian-wehde.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                    <div class="card-content">
+                        <div class="card-txt">
+                            <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                            
+                        </div>
+                      
+                    </div>
+                </article>
+            </a>
+        </div>
+    </section>
+-->
+<article class="marseille_activity" id="activite">
+    <h2>Activités à Marseille</h2>
+    <div class="card_activity_implementation">
+      <a class="card_activity" href="#">
+          <img class="img_activity" src="/Users/maa/Desktop/Projet 3 test/code/images/activites/reno-laithienne.jpg" alt="Image du vieux port de Marseille">
+        <p>Vieux-port</p>
+      </a>
+
+      <a class="card_activity" href="#">
+          <img class="img_activity" src="/Users/maa/Desktop/Projet 3 test/code/images/activites/paul-hermann.jpg" alt="Vue sur le fort de Pomègues">
+        <p>Fort de Pomègues</p>
+      </a>
+
+      <a class="card_activity" href="#">
+         <img class="img_activity" src="/Users/maa/Desktop/Projet 3 test/code/images/activites/kilyan-sockalingum.jpg" alt="Vue sur les calanques du parc national">
+        <p>Parc national des Calanques</p>
+      </a>
+
+      <a class="card_activity" href="#">
+        <img class="img_activity" src="/Users/maa/Desktop/Projet 3 test/code/images/activites/florian-wehde.jpg" alt="Photo vue sur Notre-Dame-de-la-Garde">
+        <p>Notre-Dame-de-la-Garde</p>
+      </a>
+     </div>
+    </article>
         <footer>
             <div class="footer_container">
             <div class="list_footer">
