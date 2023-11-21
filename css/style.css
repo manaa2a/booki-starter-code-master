@@ -387,10 +387,7 @@ a {
     display: flex;
     margin-top: 33px;
 }
-.hebergements-cards {
-   
-    
-}
+
 .hebergements-cards .card {
     display: flex;
     width: 28%;
@@ -633,9 +630,7 @@ footer {
        
         
     }
-    .hebergements-cards {
    
-    }
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -674,11 +669,7 @@ footer {
         width: 100%;
         
         }
-    .txt-filtres {
-       
-       
-       
-    }
+    
     .filters {
         display: flex;
         flex-wrap: nowrap;
@@ -729,6 +720,7 @@ footer {
         flex-direction: column;
         min-width: 520px;
         
+        
     }
 
     .hebergements {
@@ -751,6 +743,7 @@ footer {
 
     .populaires {
         order: 1;
+        
         
     }
 
@@ -905,7 +898,7 @@ footer {
         .Activités-cards .Activité-card {
             display: flex;
             flex-wrap: wrap;
-            width: max-content%;
+            width: max-content;
             height: auto;    
         }
        footer {
@@ -951,4 +944,11 @@ footer {
             min-width: 520px;
     
         }
+        .filtre-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            min-width: 520px;
+        }
+       
 }
