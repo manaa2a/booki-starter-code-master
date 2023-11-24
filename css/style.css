@@ -71,7 +71,7 @@ nav a:hover {
 .barre-form{
     display: flex;
     height: 49px;
-    width: 600px;
+    width: 500px;
     margin-bottom: 32px;
     box-sizing: border-box;
 }
@@ -350,6 +350,9 @@ a {
     box-sizing: border-box;
     margin-bottom: 33px;
 }
+
+
+
 
 /****** Hebergements ***********/
 .hebergements {
@@ -648,6 +651,7 @@ footer {
 
     .populaires-cards .card-title {
         font-size: 14px;
+        margin-right: 40px;
     }
 
     .populaires-cards .card-subtitle {
@@ -673,30 +677,35 @@ footer {
     .filters {
         display: flex;
         flex-wrap: nowrap;
-    
        margin-left: 3px; 
        position: relative;
        
     }
     .marseille_activity {
+       
         min-width: 520px;
         margin-top: 0;
         padding-top: 5.8%;
       }
   .card_activity_implementation{    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 5%;
+    flex-wrap: nowrap;
     width: 100%;
    
   }
       .card_activity {
+        display: flex;
+        flex-wrap: nowrap;
+        
          width: 100%;
         height: 267px;
-        margin-bottom: 5%;
+        
       }
   
       .card_activity p{
-        margin-top: 3%;
+        margin-top: 7%;
       }
       .img_activity {
           height: 198px;
@@ -706,11 +715,40 @@ footer {
       .marseille_activity h2 {
           margin-bottom: 34px;
       }
+
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+   body {
+    margin: 0;
+    padding: 0;
+   }
+
+
+.main-container{
+   
+    margin: 0;
+    padding: 0;
+
+}
+.sec-title1 {
+    margin-right: 50px;
+    padding: 10px;
+}
+.section-title{
+    margin: 0;
+    padding: 0;
+}
     .card {
         width: 100%;
         min-width: fit-content; 
@@ -719,8 +757,7 @@ footer {
     .hebergements-and-populaires {
         flex-direction: column;
         min-width: 520px;
-        
-        
+    
     }
 
     .hebergements {
@@ -866,13 +903,17 @@ footer {
         .barre-form{
             display: flex;
             height: 49px;
+            width: 300px;
             margin-bottom: 32px;
+            margin-right: 0;
+           
         }
 
 
         input[type=text] {
             display: inline-block;
             height: 49px;
+            width: 350px;
             text-align: left;
             font-size: 18px;
             font-weight: 700;
@@ -935,6 +976,7 @@ footer {
 
         .sec-title1 {
             min-width: 520px;
+            
         }
         .txt1 {
             min-width: 520px;
@@ -950,5 +992,38 @@ footer {
             width: 100%;
             min-width: 520px;
         }
+      
+        .marseille_activity {
+        
+            min-width: 520px;
+            margin-top: 0;
+            padding-top: 5.8%;
+          }
+      .card_activity_implementation{    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
        
+      }
+          .card_activity {
+            display: flex;
+            flex-wrap: nowrap;
+             width: 100%;
+            height: 267px;
+            margin-bottom: 5%;
+          }
+      
+          .card_activity p{
+            margin-top: 3%;
+          }
+          .img_activity {
+              height: 198px;
+              
+          }
+      
+          .marseille_activity h2 {
+              margin-bottom: 34px;
+          }
+
 }
