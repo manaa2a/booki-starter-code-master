@@ -1005,7 +1005,6 @@ header {
             border: 1px solid var(--Grey, #F2F2F2);
             appearance: auto;
             box-sizing: border-box;
-           
            }
 
            .Activités {
@@ -1041,7 +1040,7 @@ header {
     
         .list_footer {
           margin-bottom: 6%;
-          
+    
         }
         .filters {
             display: grid;
