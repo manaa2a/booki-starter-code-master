@@ -1,1 +1,1 @@
-# booki-starter-pack
+# booki front-end project 
