@@ -12,6 +12,19 @@
 .fa-solid {
     color: var(--main-color);
 }
+.fa-magnifying-glass {
+    color: white;
+
+}
+.fa-circle-info{
+    color: white;
+    border-color: #D9D9D9;
+    border: 1px solid gray;
+    border-radius: 100%;
+    background: #0065FC;
+    
+    
+}
 .icon-btn {
     color: var(--main-color);
     margin-right: 5px;
@@ -828,7 +841,7 @@ header {
         margin-inline: 0;
         margin-left: 0;
         margin-right: 0;
-        max-width: 360px;
+        
         
         
     }
@@ -986,19 +999,20 @@ header {
         }
         .parent-de-barre-form {
             display: flex;
-            margin-right: 30px;
             justify-content: center;
+            margin-left: 20px;
         }
         .barre-form{
             display: flex;
             height: 49px;
             margin-bottom: 40px;
+            width: 100%;
             
         }
         input[type=text] {
             display: inline-block;
             height: 49px;
-            width: 100%;
+            width: 290px;
             text-align: left;
             font-size: 18px;
             font-weight: 700;
