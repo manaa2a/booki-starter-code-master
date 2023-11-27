@@ -879,16 +879,11 @@ header {
     
     .populaires-cards .card-txt {
         font-size: 18px;
-        margin-right: 
-    
-        
-        
+         
     }
    
     .populaires-cards .card-title {
         font-size: 18px;
-        m
-        
         
     }
      .card-title3 {
@@ -1012,8 +1007,7 @@ header {
             box-sizing: border-box;
            
            }
-.carre-iconmap{
-}
+
            .Activités {
             display: flex;
             flex-direction: column;
