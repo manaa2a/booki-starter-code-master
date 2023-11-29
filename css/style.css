@@ -14,6 +14,8 @@
 }
 .fa-magnifying-glass {
     color: white;
+   
+   
 
 }
 .fa-circle-info{
@@ -783,6 +785,7 @@ header {
    
     margin: 0;
     padding: 0;
+    min-width: 320px;
 
 
 }
@@ -923,6 +926,7 @@ header {
         font-weight: 700;
         line-height: normal;
         position: absolute;
+    
       
     }
 
@@ -931,16 +935,47 @@ header {
       }
       .filtre-container {
         display: flex;
-        width: 100%;
+        width: auto;
         justify-content: space-around;
         flex-direction: column;
-        height: 50px;
-        margin-bottom: 100px;
-        margin-top: 80px;
-        margin-left: 20px;
-        margin-right: 20px;
-        min-width: 320px;
+       min-width: 409px;
+        margin-bottom: 80px;
+        margin-top: 30px;
+        min-width:fit-content;
+        justify-content: center;
+        padding: 20px;
         }
+        .filters {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            grid-gap: 20px; 
+            justify-content: center;
+            
+        }
+        
+
+        button {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 25px;
+            border: 2px solid var(--grey-tint-2, #D9D9D9);
+            padding: 4px 20px;
+            width: fit-content ;
+            height: 48px;
+            background-color: white;
+            gap: 12px;
+        }  
+    
+        .my-filter {
+           
+            background-color: white;
+            color: black;
+            line-height: 100px;
+            text-align: center;
+            transition: all 1s; /* smooth transition between states */
+           }
+
+
         .div-head {
             display: flex;
             justify-content: center;
@@ -1040,7 +1075,8 @@ header {
             height: auto;    
         }
        footer {
-        min-width: fit-content;
+        min-width: 320px;
+        
        }
         .footer_container {
            
@@ -1048,27 +1084,21 @@ header {
             height: 501px;
             flex-direction: column;
             flex-wrap: nowrap;
-            background-color: var(--background-color);    
+            background-color: var(--background-color); 
+            min-width: 320px;   
         }
     
         .list_footer {
           margin-bottom: 6%;
     
         }
-        .filters {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr); 
-            grid-gap: 20px; 
-            justify-content: center;
-            width: fit-content; 
-        }
-        
+       
         
         .txt-filtres{
             margin-bottom: 15px;
         }
         header {
-            min-width: fit-content;
+            min-width: 320px;
         }
 
         .sec-title1 {
@@ -1089,13 +1119,7 @@ header {
            
             padding-top: 20px;
         }
-        .filtre-container {
-            display: flex;
-            justify-content: center;
-            width: fit-content;
-            min-width: fit-content;
-            margin-top: 30px;
-        }
+        
       
         .marseille_activity {
         
@@ -1142,10 +1166,12 @@ header {
           .txt-button-filtre {
             color: var(--Black, #000);
             font-family: Raleway;
-            font-size: 11px;
+            font-size: 10px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
             text-align: center; 
-         }  
+            
+         } 
+
 }
